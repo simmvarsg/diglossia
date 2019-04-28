@@ -28,4 +28,5 @@
     <string name="welcomemessage">வணக்கம், \nதொடர கீழே உள்ள பொத்தான்களை  அழுத்தவும்!</string>
     <string name="underline">கோடிட்ட இடங்களை நிரப்புக</string>
     <string name="points">மதிப்பெண் - </string>
+    <string name="addquestions">கேள்விகள்</string>
 </resources>

@@ -22,6 +22,6 @@ public class DApp extends Application {
 
 
     private void startBackgroundJobs() {
-        
+
     }
 }
