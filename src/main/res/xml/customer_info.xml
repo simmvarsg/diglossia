@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customer>
+    <name>Dot Cabs</name>
+    <region>s3.amazonaws.com</region>
+    <type>Taxi</type>
+    <url>http://www.dotcabs.in/terms-and-conditions.html</url>
+    <faresurl>http://www.dotcabs.in/tariff.html</faresurl>
+    <path>/diglossia</path>
+    <countrycode>+91</countrycode>
+    <digits>10</digits>
+    <server>http://axlephp.cloudapp.net/</server>
+    <AWS>https://sqs.us-east-1.amazonaws.com/711643634223/</AWS>
+    <KEY>AKIAJUQ5IXQEWKWNRR4Q</KEY>
+    <SECRET>DFuMEX3m13F25TrZDj</SECRET>
+    <KEY2>3ENw895EZa4nEY0l6FbJRg</KEY2>
+</customer>

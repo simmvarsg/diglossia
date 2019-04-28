@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="thamizh.andro.org.diglossia.ui.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp">
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="கேள்விகளை நிரப்புக"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/txt5"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/edit_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="   _________   "
+        android:hint="கேள்வி"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt8" />
+
+        <EditText
+            android:id="@+id/edit_rightAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:hint="சரியான பதில்"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt8" />
+        <EditText
+            android:id="@+id/edit_wrongAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text=""
+            android:hint="தவறான பதில்"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt8" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:background="@color/buttonaqua"
+        android:textColor="@color/buttontext"
+        android:textSize="@dimen/txt3" />
+
+</LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

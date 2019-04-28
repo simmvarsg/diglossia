@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="thamizh.andro.org.diglossia.ui.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp">
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/circlecolor"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt10"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/question"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/underline"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt5"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="Question Here!!!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt10" />
+
+    <RadioGroup
+        android:id="@+id/questionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rightAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:checked="true"
+            android:paddingLeft="@dimen/txt6"
+            android:paddingTop="@dimen/txt2"
+            android:paddingRight="@dimen/txt7"
+            android:paddingBottom="@dimen/txt2"
+            android:textColor="@color/radio_flat_text_selector"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:text="Answer 1"
+            android:textAlignment="center"
+            android:textSize="@dimen/txt8" />
+
+        <RadioButton
+            android:id="@+id/wrongAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/txt6"
+            android:paddingTop="@dimen/txt2"
+            android:paddingRight="@dimen/txt7"
+            android:paddingBottom="@dimen/txt2"
+            android:textColor="@color/radio_flat_text_selector"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:text="Answer 2"
+            android:textAlignment="center"
+            android:textSize="@dimen/txt8" />
+    </RadioGroup>
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/correct"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:background="@null"/>
+        <ImageView
+            android:id="@+id/wrongImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/wrong"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            android:background="@null"/>
+    <Button
+        android:id="@+id/submitbutton"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/submit"
+        android:textStyle="bold"
+        android:background="@color/buttonaqua"
+        android:textColor="@color/buttontext"
+        android:textSize="@dimen/txt3" />
+
+</LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

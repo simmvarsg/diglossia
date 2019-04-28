@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/lblTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="கேள்விகளை நிரப்புக"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/txt5"
+                    android:textStyle="bold|italic" />
+                <EditText
+                    android:id="@+id/lblQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:text="   _________   "
+                    android:hint="கேள்வி"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt8" />
+
+                <EditText
+                    android:id="@+id/lblRightAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:text=""
+                    android:hint="சரியான பதில்"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt8" />
+                <EditText
+                    android:id="@+id/lblWrongAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:text=""
+                    android:hint="தவறான பதில்"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/txt8" />
+<CheckBox
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/chkApproval"
+    android:text="Approve"/>
+                <Button
+                    android:id="@+id/submitbutton"
+                    style="?android:textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/submit"
+                    android:textStyle="bold"
+                    android:background="@color/buttonaqua"
+                    android:textColor="@color/buttontext"
+                    android:textSize="@dimen/txt3" />
+
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

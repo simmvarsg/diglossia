@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="groupHeadColor">#eeeeee</color>
+    <color name="buttonred">#dd3b3b</color>
+    <color name="buttonaqua">#3cd2c5</color>
+    <color name="buttontext">#fff</color>
+    <color name="textcolor">#405169</color>
+    <color name="background">#ffff</color>
+    <color name="grey">#405169</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black">#000</color>
+    <color name="red">#f00</color>
+    <color name="green">#21b808</color>
+    <color name="white">#fff</color>
+    <color name="chartshade1">#869bef</color>
+    <color name="chartshade2">#869bef</color>
+    <color name="chartshade3">#AA38D3A9</color>
+    <color name="chartshade4">#AAFF0000</color>
+    <color name="chartline">#8adbfb</color>
+    <color name="background1">#3d4d67</color>
+    <color name="background2">#202d46</color>
+    <color name="circlecolor">#2AA282</color>
+    <color name="textblue">#657DA0</color>
+    <color name="textbluehead">#839ABB</color>
+</resources>

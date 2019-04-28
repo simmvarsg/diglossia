@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Diglossia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Language Play</string>
+    <string name="nav_header_subtitle">simmvar@yahoo.com</string>
+    <string name="nav_header_desc">Options</string>
+    <string name="action_settings">Settings</string>
+    <string name="AppName">Diglossia</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Email Sign In</string>
+    <string name="action_skip_short">Skip</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_show_once">ShowOnce</string>
+    <string name="starttracking">உள்ளே செல்லவும்</string>
+    <string name="register">தயவு செய்து பதிந்து கொள்ளவும்</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="wrong_answer">தவறான பதில், மீண்டும் முயற்சிக்கவும்</string>
+    <string name="right_answer">சரியான பதில்</string>
+    <string name="submit">சமர்ப்பி</string>
+    <string name="kurilnedil">குறில் நெடில் பயிற்சி </string>
+    <string name="welcomemessage">வணக்கம், \nதொடர கீழே உள்ள பொத்தான்களை  அழுத்தவும்!</string>
+    <string name="underline">கோடிட்ட இடங்களை நிரப்புக</string>
+    <string name="points">மதிப்பெண் - </string>
+</resources>
