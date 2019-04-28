@@ -200,6 +200,7 @@ public class QuestionsFragment extends Fragment {
     questionGroup.setVisibility(View.VISIBLE);
     txtTitle.setText(getString(R.string.underline));
     txtTitle.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
+    submitButton.setVisibility(View.VISIBLE);
   }
 
   void animate(ImageView rightView, ImageView wrongView){
@@ -220,6 +221,7 @@ public class QuestionsFragment extends Fragment {
     rightView.startAnimation(anim);
     wrongView.setVisibility(View.GONE);
     wrongView.setAnimation(null);
+    submitButton.setVisibility(View.GONE);
   }
 
   @Override
