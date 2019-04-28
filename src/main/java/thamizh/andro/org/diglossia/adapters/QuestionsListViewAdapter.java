@@ -91,7 +91,6 @@ public class QuestionsListViewAdapter extends BaseAdapter {
                         holder.lblQuestion = (TextView) convertView.findViewById(R.id.lblQuestion);
                         holder.lblRightAnswer = (TextView) convertView.findViewById(R.id.lblRightAnswer);
                         holder.lblWrongAnswer = (TextView) convertView.findViewById(R.id.lblWrongAnswer);
-                        holder.isApproval = (CheckBox) convertView.findViewById(R.id.chkApproval);
                     }
                     else
                         holder = (ViewHolderItem)convertView.getTag();

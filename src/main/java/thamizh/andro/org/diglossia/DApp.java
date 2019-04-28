@@ -3,7 +3,6 @@ package thamizh.andro.org.diglossia;
 import android.app.Application;
 import android.content.Context;
 import com.google.firebase.FirebaseApp;
-import thamizh.andro.org.diglossia.net.api.VolleyQueue;
 
 public class DApp extends Application {
     private static Context context;
@@ -16,7 +15,6 @@ public class DApp extends Application {
         super.onCreate();
         context = this.getApplicationContext();
             this.startBackgroundJobs();
-            VolleyQueue.init(this);
             FirebaseApp.initializeApp(this);
     }
 

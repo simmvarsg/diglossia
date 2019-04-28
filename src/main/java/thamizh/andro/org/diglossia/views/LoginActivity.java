@@ -20,7 +20,6 @@ import android.text.style.StyleSpan;
 
 import thamizh.andro.org.diglossia.R;
 import thamizh.andro.org.diglossia.model.userModel;
-import thamizh.andro.org.diglossia.net.api.SignIn;
 import thamizh.andro.org.diglossia.share.Share;
 import thamizh.andro.org.diglossia.share.Urls;
 import thamizh.andro.org.diglossia.utils.CommonFunctions;

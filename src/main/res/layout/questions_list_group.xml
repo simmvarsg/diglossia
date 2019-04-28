@@ -1,52 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/white"
-    android:gravity="center_vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="5dp">
-
-
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white">
     <thamizh.andro.org.diglossia.customfont.PN_TextView_Regular
-        android:id="@+id/lblQuestion"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|left"
-        android:layout_marginRight="5dp"
-        android:layout_weight="0.5"
-        android:gravity="center_vertical|left"
-        android:padding="5dp"
-        android:text="@string/kurilnedil"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="@dimen/txt7"
-        android:textColor="@color/colorPrimaryDark" />
-    <LinearLayout
+    android:gravity="center_vertical|left"
+    android:id="@+id/lblQuestion"
+    android:layout_gravity="center_vertical|left"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp"
+    android:layout_weight="0.5"
+    android:layout_width="fill_parent"
+    android:padding="5dp"
+    android:text="@string/kurilnedil"
+    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="@dimen/txt7"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
         <thamizh.andro.org.diglossia.customfont.PN_TextView_Regular
+            android:gravity="center_vertical|left"
             android:id="@+id/lblRightAnswer"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|left"
+            android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_weight="0.5"
-            android:gravity="center_vertical|left"
+            android:layout_width="fill_parent"
             android:padding="5dp"
             android:text="@string/kurilnedil"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="@dimen/txt7"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt7"/>
         <thamizh.andro.org.diglossia.customfont.PN_TextView_Regular
+            android:gravity="center_vertical|left"
             android:id="@+id/lblWrongAnswer"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|left"
+            android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_weight="0.5"
-            android:gravity="center_vertical|left"
+            android:layout_width="fill_parent"
             android:padding="5dp"
             android:text="@string/kurilnedil"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large" android:textSize="@dimen/txt7"
-            android:textColor="@color/colorPrimaryDark" />
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/txt7"/>
     </LinearLayout>
-
 </LinearLayout>

@@ -22,7 +22,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.Random;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
